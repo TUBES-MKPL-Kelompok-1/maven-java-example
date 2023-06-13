@@ -120,6 +120,6 @@ public final class ReadManifest {
                         attrCycle.getKey(), attrCycle.getValue()));
             }
         }
-        System.out.println("*******   END PRINT MANIFEST   **");
+        System.out.println("*******   END PRINT MANIFEST   *");
     }
 }
