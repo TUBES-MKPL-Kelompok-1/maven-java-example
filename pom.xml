@@ -5,8 +5,16 @@
 	<groupId>org.pirola.maven.example</groupId>
 	<!-- Remember to use '-' as word separator. -->
 	<artifactId>maven-example-project-for-java</artifactId>
-	<version>2.0</version>
+	<version>0.3.2</version>
 	<packaging>jar</packaging>
+	
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/TUBES-MKPL-Kelompok-1/maven-java-example</url>
+		</repository>
+	</distributionManagement>
 
 	<!-- Begin project description. -->
 	<name>Maven example project for Java</name>
