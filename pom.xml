@@ -54,7 +54,7 @@
 	</dependencies>
 	<!-- End dependencies. -->
 
-	<!-- Begin sonar profile. -->
+<!-- 	<!-- Begin sonar profile. -->
 	<profiles>
 		<profile>
 			<!-- Sonar profile, useful for analyze/validate Java code. -->
@@ -79,7 +79,7 @@
 			</properties>
 		</profile>
 	</profiles>
-	<!-- End sonar profile. -->
+	<!-- End sonar profile. --> -->
 
 	<build>
 		<defaultGoal>install</defaultGoal>
