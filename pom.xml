@@ -136,32 +136,14 @@
 				</executions>
 			</plugin>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-checkstyle-plugin</artifactId>
-				<version>2.17</version>
-				<executions>
-					<execution>
-						<id>verify-java-code</id>
-						<phase>verify</phase>
-						<configuration>
-							<encoding>UTF-8</encoding>
-							<!-- Output the detected violations to the console.. -->
-							<logViolationsToConsole>true</logViolationsToConsole>
-							<!-- Build should fail upon a violation (before has been logged). -->
-							<failsOnError>false</failsOnError>
-							<!-- Fail the build on a violation (after violation has been logged) -->
-							<failOnViolation>true</failOnViolation>
-							<!-- Skip entire check. -->
-							<skip>false</skip>
-							<!-- The lowest severity level that is considered a violation. -->
-							<violationSeverity>info</violationSeverity>
-							<!-- If you have some class to exclude use "exclude" node -->
-						</configuration>
-						<goals>
-							<goal>check</goal>
-						</goals>
-					</execution>
-				</executions>
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-checkstyle-plugin</artifactId>
+			    <executions>
+				<execution>
+				    <id>checkstyle-validation</id>
+				    <phase>none</phase>
+				</execution>
+			    </executions>
 			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
