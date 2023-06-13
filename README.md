@@ -43,4 +43,6 @@ In order to execute build my example you have two way:
 1. **Open** terminal or your prompt and **navigate to** maven example project (you must go inside the folder)
 2. **Execute** the following command (replace '/' with '\' if you are on windows environment): java -jar ./target/maven-example-project-for-java.jar
 
+## Note
+This project is copy version and the purpose is for testing only. You can look at the original project at **https://github.com/fpirola/maven-example-project-for-java**.
 ### **_Happy coding_ ;)**
