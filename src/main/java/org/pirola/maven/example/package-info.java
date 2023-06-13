@@ -18,10 +18,4 @@
  * MA  02110-1301, USA.
  */
 
-/**
- * Provides the classes necessary to
- * execute Maven example project.
- * @author Fabio Pirola <fabio@pirola.org>
- * @since 2015-07-15
- */
 package org.pirola.maven.example;
