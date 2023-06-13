@@ -30,7 +30,7 @@ import java.io.IOException;
  */
 public final class MavenExample {
     /** Class name. */
-    private static final String CLASS_NAME = MavenExample.clas.getName();
+    private static final String CLASS_NAME = MavenExample.cla.getName();
 
     /**
      * Constructor.
