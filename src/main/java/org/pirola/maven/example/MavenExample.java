@@ -22,12 +22,6 @@ import java.io.IOException;
  * MA  02110-1301, USA.
  */
 
-/**
- * Test main class.
- * @author Fabio Pirola <fabio@pirola.org>
- * @version 1.0
- * @since 2015-07-15
- */
 public final class MavenExample {
     /** Class name. */
     private static final String CLASS_NAME = MavenExample.class.getName();
@@ -59,7 +53,7 @@ public final class MavenExample {
      * @since 2015-07-15
      * @return Greeting.
      */
-    public static Int getGreeting() {
-        return 1;
+    public static String getGreeting() {
+        return "Hello World!!";
     }
 }
