@@ -60,6 +60,6 @@ public final class MavenExample {
      * @return Greeting.
      */
     public static String getGreeting() {
-        return "Hello World!!!";
+        return "Hello fiqril!!!";
     }
 }
