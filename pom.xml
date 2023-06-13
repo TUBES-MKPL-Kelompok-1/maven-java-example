@@ -148,11 +148,25 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>findbugs-maven-plugin</artifactId>
-				<version>${plugin.findbugs-maven-plugin.version}</version>
+				<version>3.0.3</version>
 				<configuration>
-				    <excludeFilterFile>${project.basedir}/exclude-findbugs.xml</excludeFilterFile>
-				    <skip>true</skip>
+					<!-- Max level of analisys and error reporting. -->
+					<effort>Max</effort>
+					<!-- Build should fail upon a violation. -->
+					<failOnError>true</failOnError>
+					<!-- Low level for threshold. -->
+					<threshold>Low</threshold>
 				</configuration>
+				<executions>
+					<!-- Ensures that FindBugs inspects source code when project is compiled. -->
+					<execution>
+						<id>analyze-compile</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>check</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
