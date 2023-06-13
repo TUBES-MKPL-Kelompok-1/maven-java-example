@@ -5,7 +5,7 @@
 	<groupId>org.pirola.maven.example</groupId>
 	<!-- Remember to use '-' as word separator. -->
 	<artifactId>maven-example-project-for-java</artifactId>
-	<version>0.3.2</version>
+	<version>0.3.3</version>
 	<packaging>jar</packaging>
 	
 	<distributionManagement>
