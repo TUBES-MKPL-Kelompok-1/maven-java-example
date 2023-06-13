@@ -24,6 +24,6 @@ public final class MavenExample {
     @Test
     public void testGetGreeting() {
         String greeting = getGreeting();
-        assertEquals("Hello World!!!", greeting);
+        assertEquals("Hello dunia!!!", greeting);
     }
 }
