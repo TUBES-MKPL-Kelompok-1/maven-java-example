@@ -148,7 +148,7 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>findbugs-maven-plugin</artifactId>
-				<version>${plugin.findbugs-maven-plugin.version}</version>
+				<version>2.5.2</version>
 				<configuration>
 				    <excludeFilterFile>${project.basedir}/exclude-findbugs.xml</excludeFilterFile>
 				    <skip>true</skip>
